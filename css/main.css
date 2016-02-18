@@ -1,0 +1,289 @@
+body{
+
+	margin: 2.5% auto;
+
+	width: 950px;
+
+	font: normal 10pt Arial,Helvetica,sans-serif;
+
+	background-image: url('../img/metal.png');
+
+}
+
+h1,h2,h3,h4,h5,h6,p{
+
+	color:#0092ff;
+
+}
+
+a{
+
+	color: #009;
+
+}
+
+header{
+
+	width: 100%;
+
+}
+
+footer{
+
+	float: left;
+
+	padding-top: 20px;
+
+	padding-bottom: 20px;
+
+	text-align: center;
+
+	width: 100%;
+
+	margin: 0 auto;
+
+	background: #fbfbfb; /* Для старых браузров */
+
+    background: linear-gradient(to top, #fbfbfb, white);
+
+}
+
+
+
+#menu{
+
+
+
+}
+
+#menu ul{
+
+	list-style: none;
+
+	width: 700px;
+
+	margin: 0 auto;
+
+}
+
+#menu ul li{
+
+	float: left;
+
+	text-align: center;
+
+	width: 100px;
+
+	height: 100px;
+
+	margin-left:10px;
+
+	border: 1px solid #E5E5E5;
+
+	border-radius: 5px;
+
+-moz-border-radius: 5px;
+
+-webkit-border-radius: 5px;
+
+-moz-box-shadow: 1px 1px 1px #999;
+
+-webkit-box-shadow: 1px 1px 1px #999;
+
+	box-shadow: 1px 1px 1px #999;
+
+	background: #fbfbfb;
+
+	background: -moz-linear-gradient(top,#fbfbfb,#f5f5f5);
+
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#f5f5f5));
+
+}
+
+#menu ul li:hover{
+
+	background: #dbdbdb ;
+
+	background: -moz-linear-gradient(top,#dbdbdb ,#f5f5f5);
+
+	background: -webkit-gradient(linear, left top, left bottom, from(#dbdbdb ), to(#f5f5f5));
+
+}
+
+#menu ul li img{
+
+	margin-top: 10px;
+
+	height: 64px;
+
+	width: 64px;
+
+
+
+}
+
+#content{
+
+	margin-top: 10px;
+
+	width:100%;
+
+	min-height: 350px;
+
+	float: left; 
+
+	border-radius: 0px;
+
+	background-color: white;
+
+}
+
+
+
+.note{
+
+	font-style: italic;
+
+}
+
+span.required{
+
+	color:red;
+
+}
+
+
+
+#form{
+
+}
+
+
+
+#form label{
+
+	font-weight: bold;
+
+	display: block;
+
+}
+
+
+
+#form .row{
+
+	margin-top: 5px;
+
+}
+
+
+
+/*For index page*/
+
+#index{
+
+	padding: 20px;
+
+}
+
+
+
+#product{
+
+	padding: 20px;
+
+	overflow: hidden;
+
+}
+
+/*For ptoduct page*/
+
+.table{
+
+	float:left;
+
+}
+
+.right-block{
+
+	float:right;
+
+}
+
+
+
+/*For warehouse page*/
+
+#warehouse{
+
+	padding: 20px;
+
+	overflow: hidden;
+
+}
+
+#warehouse-menu li{
+
+	margin: 10px;
+
+}
+
+#warehouse-menu li a{
+
+	color:#b5b600 ;
+
+}
+
+#addrow{
+
+	overflow: hidden;
+
+	display: inline-block;
+
+	cursor: pointer;
+
+	padding: 5px;
+
+	margin: 5px;
+
+	border: 1px solid #E5E5E5;
+
+	box-shadow: 1px 1px 1px #999;
+
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#f5f5f5));
+
+
+
+}
+
+#addrow:hover{
+
+	background: -webkit-gradient(linear, left top, left bottom, from(#cecece ), to(#f5f5f5));
+
+}
+
+.input-id{
+
+	width: 35px;
+
+}
+
+/*Autocomplete */
+
+
+.autocomplete{
+	width: 300px;
+}
+.ui-autocomplete {
+	width: 390px;
+    max-height: 150px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+  }
+  /* IE 6 doesn't support max-height
+   * we use height instead, but this forces the menu to always be this tall
+   */
+  * html .ui-autocomplete {
+    height: 150px;
+  } 
