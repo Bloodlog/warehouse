@@ -11,5 +11,5 @@ config - /engine/config/config.php
 Работает из под корневой папки.
 
 Автор: Bloodlog
-Сайт: htttp://web-fomin.ru
+Сайт: http://web-fomin.ru/
 соц. сеть: http://vk.com/bloodlog
